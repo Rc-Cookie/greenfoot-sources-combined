@@ -1,9 +1,3 @@
-# Greenfoot sources
-
-The source files (only .java) of Greenfoot combined into one folder to add them as dependency easily. Additionally sources and a compiled jar from the missing threadchecker package are included.
-
----
-
 # How to use IntelliJ to create Greenfoot projects
 
 #### By RcCookie
@@ -192,4 +186,3 @@ Now close the window and start coding!
 Normally you should not need the Greenfoot application anymore while coding. However, there are still some cases in which it is needed, in specific when you want to upload your scenario to the Greenfoot website.
 
 Opening your project in the Greenfoot application can be done no problem. Just open the `src` folder of your project in the file explorer, i.e. by right-clicking onto the folder in IntelliJ and selecting `Open in > Explorer`. Now just double-click the `project.greenfoot` file. Greenfoot will show a message that the file is from an older version, just click ok. This is because wi did not write anything to the file ourselfs. When the scenario has loaded for the first time into the application, you will have to right-click onto your main world and select `new <YourWorld>()`. Now your scenario should be running and can exported the usual way.
-
